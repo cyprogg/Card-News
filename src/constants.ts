@@ -1,0 +1,72 @@
+import { CardTheme } from './types';
+
+export const THEMES: CardTheme[] = [
+  {
+    id: 'modern',
+    name: 'Clean Modern',
+    bg: 'bg-white',
+    text: 'text-gray-900',
+    accent: 'bg-blue-600',
+    fontSans: 'font-sans',
+  },
+  {
+    id: 'technical',
+    name: 'Tech Grid',
+    bg: 'bg-[#E4E3E0]',
+    text: 'text-[#141414]',
+    accent: 'bg-[#141414]',
+    fontSans: 'font-sans',
+    fontMono: 'font-mono',
+  },
+  {
+    id: 'editorial',
+    name: 'Editorial Bold',
+    bg: 'bg-black',
+    text: 'text-white',
+    accent: 'bg-[#F27D26]',
+    fontDisplay: 'font-sans font-black uppercase tracking-tighter',
+    fontSans: 'font-sans',
+  },
+  {
+    id: 'brutalist',
+    name: 'Brutalist',
+    bg: 'bg-white',
+    text: 'text-black',
+    accent: 'bg-[#00FF00]',
+    fontDisplay: 'font-sans font-black uppercase tracking-tighter',
+    fontSans: 'font-sans',
+  },
+  {
+    id: 'luxury',
+    name: 'Dark Luxury',
+    bg: 'bg-black',
+    text: 'text-white',
+    accent: 'bg-gray-800',
+    fontSans: 'font-sans font-light',
+  },
+  {
+    id: 'organic',
+    name: 'Warm Organic',
+    bg: 'bg-[#f5f5f0]',
+    text: 'text-[#5A5A40]',
+    accent: 'bg-[#5A5A40]',
+    fontSans: 'font-serif',
+  },
+  {
+    id: 'minimal',
+    name: 'Minimalist',
+    bg: 'bg-[#f5f5f5]',
+    text: 'text-[#4a4a4a]',
+    accent: 'bg-[#4a4a4a]',
+    fontSans: 'font-sans font-light',
+  },
+  {
+    id: 'artistic',
+    name: 'Artistic Flair',
+    bg: 'bg-white',
+    text: 'text-[#1a1a1a]',
+    accent: 'bg-[#00FF85]',
+    fontSans: 'font-sans font-medium',
+    fontDisplay: 'font-sans font-[900] tracking-tighter text-[3rem] leading-[1.1]',
+  }
+];
